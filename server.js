@@ -38,7 +38,7 @@ app.delete('/clear', (req, res) => {
     const adminKey = req.headers['x-admin-key'];
     
     // Change "MY_SECRET_ADMIN_KEY_123" to your own private password!
-    if (adminKey !== "MY_SECRET_ADMIN_KEY_123") {
+    if (adminKey !== "jvncamafia666") {
         return res.status(403).json({ error: "Unauthorized access" });
     }
 
